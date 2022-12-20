@@ -1,25 +1,21 @@
 @import '../reset.css';
 
-  /*============ ALL ==============*/
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Ubuntu", sans-serif;
-}
-
+/*============ ALL ==============*/
 body {
-    background: linear-gradient(180deg, rgba(89, 76, 238, 1) 0%, #8dd0f5 100%);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
+    font-family: "Ubuntu", sans-serif;
+    background: linear-gradient(180deg, rgba(89, 76, 238, 1) 0%, #8dd0f5 100%);
 
     background-position: center;
     background-size: cover;
 }
 
 .hide {
-    display: none !important;
+    display: none;
 }
 
 .container {
@@ -31,9 +27,10 @@ body {
     max-width: 400px;
 }
 
-  /*============ FORM ==============*/
+/*============ FORM ==============*/
 .form h3 {
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .form-input-container {
@@ -58,7 +55,7 @@ body {
     border-radius: 4px;
 }
 
-  /*============ CLIMATE ==============*/
+/*============ CLIMATE ==============*/
 #weather-data,
 #error-message,
 #loader,
@@ -74,6 +71,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 0.6rem;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 #weather-data h2 i {
@@ -85,11 +84,11 @@ body {
 }
 
 #temperature {
-    font-size: 4rem;
+    font-size: 1.6rem;
 }
 
 #country {
-    height: 15px;
+    height: 30px;
 }
 
 #description-container {
@@ -110,7 +109,7 @@ body {
     align-items: center;
 }
 
-#details-container #umidity {
+#details-container #humidity {
     border-right: 1px solid #fff;
     margin: 0.6rem;
     padding: 0.6rem;
