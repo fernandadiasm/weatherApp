@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿<h1 align="center"> Weather App </h1>
+<h1 align="center"> Weather App </h1>
 
 <p align="center">
   <img alt="weather app" src=".github/preview.png" width="70%">
