@@ -45,6 +45,3 @@ Esse projeto está sob a licença MIT.
 <a href = "mailto:fernandadias.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://instagram.com/ferandadias" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
-=======
-🚧 Projeto em construção 🚧
->>>>>>> aefc212dc59b430d22dcaa30a62bf805de153642
